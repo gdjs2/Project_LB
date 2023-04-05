@@ -1,0 +1,600 @@
+int genfs_read(struct policydb *@p,void *@fp,)	policydb.c -0.9953234186992139
+#### int sja1105_setup_8021q_tagging(struct dsa_switch *@ds,_Bool@enabled,)	 -0.9953234189713576
+int start_ms350_cam(struct gspca_dev *@gspca_dev,)	sn9c2028.c -0.995323419274574
+int pxa2xx_soc_pcm_hw_params(struct snd_soc_component *@component,struct snd_pcm_substream *@substream,struct snd_pcm_hw_params *@params,)	pxa2xx-pcm-lib.c -0.9953234197169791
+void update_balloon_size_func(struct work_struct *@work,)	virtio_balloon.c -0.9953234199233884
+int nv50_disp_dmac_bind(struct nv50_disp_chan *@chan,struct nvkm_object *@object,unsigned int@handle,)	dmacnv50.c -0.9953234202691325
+int cxd2880_tnrdmd_dvbt2_mon_snr(struct cxd2880_tnrdmd *@tnr_dmd,int *@snr,)	 -0.9953234205731563
+int cxd2880_tnrdmd_dvbt_mon_snr(struct cxd2880_tnrdmd *@tnr_dmd,int *@snr,)	 -0.9953234205731563
+void yield_task_rt(struct rq *@rq,)	rt.c -0.9953234206708501
+void lec_pop(struct atm_vcc *@vcc,struct sk_buff *@skb,)	lec.c -0.9953234211061069
+struct gntdev_dmabuf_priv * gntdev_dmabuf_init(struct file *@filp,)	gntdev-dmabuf.c -0.9953234214451899
+#### _Bool trace_snd_soc_jack_report_enabled()	asoc.h -0.9953234222956646
+const struct cfg80211_chan_def * cfg80211_chandef_compatible(const struct cfg80211_chan_def *@chandef1,const struct cfg80211_chan_def *@chandef2,)	 -0.9953234225369436
+int tegra_uart_resume(struct device *@dev,)	8250_tegra.c -0.9953234226643177
+unsigned int mux_line_to_num(unsigned int@line,)	 -0.9953234229378773
+struct sk_buff * w5100_rx_skb(struct net_device *@ndev,)	 -0.9953234235457006
+int mlx4_max_tc(struct mlx4_dev *@dev,)	 -0.9953234243910984
+int stm32_sai_pcm_process_spdif(struct snd_pcm_substream *@substream,int@channel,unsigned long@hwoff,void *@buf,unsigned long@bytes,)	stm32_sai_sub.c -0.9953234245534917
+int ddebug_change(const struct ddebug_query *@query,struct flag_settings *@modifiers,)	 -0.9953234249909915
+struct mpls_entry_decoded mpls_entry_decode(struct mpls_shim_hdr *@hdr,)	 -0.9953234250916798
+unsigned long long nft_bitmap_privsize(const struct nlattr *const []@nla,const struct nft_set_desc *@desc,)	nft_set_bitmap.c -0.9953234256923724
+int snd_ice1712_pro_mixer_switch_put(struct snd_kcontrol *@kcontrol,struct snd_ctl_elem_value *@ucontrol,)	ice1712.c -0.9953234261654429
+void cypress_dpm_disable(struct radeon_device *@rdev,)	cypress_dpm.c -0.9953234263252656
+void ni_populate_std_voltage_value(struct radeon_device *@rdev,unsigned short@value,unsigned char@index,NISLANDS_SMC_VOLTAGE_VALUE *@voltage,)	 -0.9953234264768263
+struct jffs2_xattr_datum * create_xattr_datum(struct jffs2_sb_info *@c,int@xprefix,const char *@xname,const char *@xvalue,int@xsize,)	xattr.c -0.9953234274999502
+void __save_processor_state(struct saved_context *@ctxt,)	cpu.c -0.99532342764442
+#### int * __check_clockp()	com20020-pci.c -0.9953234277264335
+void bfa_fcs_lport_fdmi_sm_online(struct bfa_fcs_lport_fdmi_s *@fdmi,enum port_fdmi_event@event,)	bfa_fcs_lport.c -0.9953234282265429
+enum irqreturn vortex_interrupt(int@irq,void *@dev_id,)	au88x0_core.c -0.9953234285010579
+#### void ftrace_test_probe_svcrdma_pd_err()	rpcrdma.h -0.9953234298455906
+void split_page(struct page *@page,unsigned int@order,)	 -0.9953234299559691
+int chacha20_setkey(struct crypto_skcipher *@tfm,const u8 *@key,unsigned int@keysize,)	chacha.h -0.9953234314736767
+int chacha12_setkey(struct crypto_skcipher *@tfm,const u8 *@key,unsigned int@keysize,)	chacha.h -0.9953234314736767
+#### long kovaplus_sysfs_read_profile_buttons(struct file *@fp,struct kobject *@kobj,struct bin_attribute *@attr,char *@buf,long long@off,unsigned long@count,)	hid-roccat-kovaplus.c -0.9953234317210424
+_Bool rto_start_trylock(atomic_t *@v,)	 -0.9953234333912587
+int bnxt_force_link_speed(struct net_device *@dev,unsigned int@ethtool_speed,)	 -0.9953234334315799
+void rtl819xusb_process_received_packet(struct net_device *@dev,struct ieee80211_rx_stats *@pstats,)	 -0.9953234348827782
+int dispc_runtime_resume(struct dispc_device *@dispc,)	 -0.9953234349025554
+int stk_vidioc_s_fmt_vid_cap(struct file *@filp,void *@priv,struct v4l2_format *@fmtd,)	stk-webcam.c -0.9953234368385804
+enum bfa_boolean bfa_fcport_is_linkup(struct bfa_s *@bfa,)	bfa_svc.c -0.995323438013481
+#### unsigned int mlxsw_reg_tndem_eip_ecn_get(const char *@buf,)	reg.h -0.9953234387785117
+unsigned int ipv4_default_advmss(const struct dst_entry *@dst,)	route.c -0.9953234406938826
+void da7219_aad_jack_det(struct snd_soc_component *@component,struct snd_soc_jack *@jack,)	 -0.9953234408084155
+#### u32  probe_fbpa_amount(struct nvkm_device *@nvkm_device,int@int,)	 -0.9953234409180955
+#### int i2400m_dev_reset_handle(struct i2400m *@,const char *@,)	 -0.9953234411497386
+int smt_check_set_count(struct s_smc *@smc,struct smt_header *@sm,)	 -0.9953234412134402
+#### bool * __check_eco_mode()	gm12u320.c -0.9953234424574866
+int usbhsh_pipe_attach(struct usbhsh_hpriv *@hpriv,struct urb *@urb,)	 -0.99532344256022
+struct nvmet_subsys * nvmet_find_get_subsys(struct nvmet_port *@port,const char *@subsysnqn,)	core.c -0.9953234425898858
+void sdhci_omap_set_bus_width(struct sdhci_host *@host,int@width,)	sdhci-omap.c -0.9953234428577955
+long fuse_conn_waiting_read(struct file *@file,char *@buf,unsigned long@len,loff_t *@ppos,)	control.c -0.9953234432165757
+void bbio_error(struct btrfs_bio *@bbio,struct bio *@bio,unsigned long long@logical,)	volumes.c -0.9953234434225843
+int ddb_init_tempmon(struct ddb_link *@link,)	 -0.9953234436921012
+int rtw_download_drv_rsvd_page(struct rtw_dev *@rtwdev,u8 *@buf,unsigned int@size,)	 -0.995323444525243
+_Bool trace_xfs_buf_lock_done_enabled()	xfs_trace.h -0.9953234453922235
+void rdma_seq_err(struct rvt_qp *@qp,struct hfi1_ibport *@ibp,unsigned int@psn,struct hfi1_ctxtdata *@rcd,)	 -0.9953234454848613
+_Bool trace_hfi1_tid_rdma_rcv_err_enabled()	trace_tid.h -0.9953234458808058
+int mlx5e_tc_netdev_event(struct notifier_block *@this,unsigned long@event,void *@ptr,)	en_tc.c -0.9953234465620926
+int si_dpm_force_performance_level(struct radeon_device *@rdev,enum radeon_dpm_forced_level@level,)	si_dpm.c -0.9953234470882051
+void etnaviv_gpu_update_clock(struct etnaviv_gpu *@gpu,)	 -0.9953234470973864
+void rtrs_srv_sess_down(struct rtrs_srv_sess *@sess,)	 -0.9953234471935579
+int xhci_dbc_resume(struct xhci_hcd *@xhci,)	xhci-dbgcap.c -0.9953234475300139
+int ima_template_setup(char *@str,)	ima_template.c -0.9953234477486894
+int qed_iov_chk_ucast(struct qed_hwfn *@hwfn,int@vfid,struct qed_filter_ucast *@params,)	 -0.9953234491668854
+unsigned char pdacf_ak4117_read(void *@private_data,unsigned char@reg,)	pdaudiocf_core.c -0.995323449330799
+int tcm_qla2xxx_write_pending(struct se_cmd *@se_cmd,)	tcm_qla2xxx.c -0.9953234495011828
+void tomoyo_notify_gc(struct tomoyo_io_buffer *@head,_Bool@is_register,)	 -0.9953234499447178
+int zd1201_get_maxassoc(struct net_device *@dev,struct iw_request_info *@info,struct iw_param *@rrq,char *@extra,)	zd1201.c -0.9953234503751452
+unsigned char nvkm_mem_page(struct nvkm_memory *@memory,)	mem.c -0.9953234510161436
+int flexcop_diseqc_send_master_cmd(struct dvb_frontend *@fe,struct dvb_diseqc_master_cmd *@cmd,)	flexcop-fe-tuner.c -0.9953234516514482
+void qce_get_version(struct qce_device *@qce,u32 *@major,u32 *@minor,u32 *@step,)	common.c -0.9953234518081067
+_Bool mesh_path_sel_is_hwmp(struct ieee80211_sub_if_data *@sdata,)	 -0.9953234523462251
+int vop_crtc_enable_vblank(struct drm_crtc *@crtc,)	rockchip_drm_vop.c -0.9953234527864704
+void mlxsw_reg_tnqdr_local_port_set(char *@buf,unsigned int@val,)	 -0.9953234532455109
+int usb_open(struct inode *@inode,struct file *@file,)	file.c -0.9953234539446071
+enum vxge_hw_status vxge_hw_device_getpause_data(struct __vxge_hw_device *@devh,unsigned int@port,u32 *@tx,u32 *@rx,)	 -0.9953234545408695
+int gfs2_xattr_acl_get(struct gfs2_inode *@ip,const char *@name,char **@ppdata,)	xattr.c -0.9953234552783812
+const char * hdmi_audio_coding_type_get_name(enum hdmi_audio_coding_type@coding_type,)	 -0.9953234554253578
+void hhf_reset(struct Qdisc *@sch,)	sch_hhf.c -0.9953234555023638
+int vme_bus_probe(struct device *@dev,)	vme.c -0.9953234560846715
+void check_trace_callback_type_block_bio_frontmerge(void (*)(void *, struct bio *)@cb,)	 -0.9953234563636777
+long flash_strobe_show(struct device *@dev,struct device_attribute *@attr,char *@buf,)	led-class-flash.c -0.9953234575642795
+void virtio_vsock_rx_done(struct virtqueue *@vq,)	virtio_transport.c -0.9953234578649849
+_Bool synth_field_signed(char *@type,)	 -0.9953234580346513
+unsigned char parport_ax88796_read_status(struct parport *@p,)	parport_ax88796.c -0.9953234581652122
+const char * ip_vs_state_name(const struct ip_vs_conn *@cp,)	ip_vs_proto.c -0.9953234585811337
+int __s5c73m3_s_stream(struct s5c73m3 *@state,struct v4l2_subdev *@sd,int@on,)	 -0.9953234597854743
+int lan78xx_set_mac_addr(struct net_device *@netdev,void *@p,)	lan78xx.c -0.9953234620013102
+int ehci_spear_init()	ehci-spear.c -0.9953234625279304
+unsigned int pci224_gat_config(unsigned int@chan,unsigned int@src,)	 -0.9953234625909978
+unsigned int pci230_gat_config(unsigned int@chan,unsigned int@src,)	 -0.9953234625909978
+int scarlett_ctl_put(struct snd_kcontrol *@kctl,struct snd_ctl_elem_value *@ucontrol,)	mixer_scarlett.c -0.9953234626504799
+int ipw_pci_probe(struct pci_dev *@pdev,const struct pci_device_id *@ent,)	ipw2200.c -0.9953234632418615
+void panfrost_perfcnt_fini(struct panfrost_device *@pfdev,)	panfrost_perfcnt.c -0.9953234633626318
+int arcmsr_module_init()	arcmsr_hba.c -0.9953234633880503
+void fm10k_mbx_create_data_hdr(struct fm10k_mbx_info *@mbx,)	 -0.9953234635077985
+void mt76x2_phy_calibrate(struct work_struct *@work,)	pci_phy.c -0.9953234639791634
+void mlxsw_cmd_mbox_boardinfo_xm_exists_set(char *@buf,unsigned int@val,)	cmd.h -0.9953234642369829
+_Bool btrfs_backref_iter_is_inline_ref(struct btrfs_backref_iter *@iter,)	 -0.9953234661607802
+int imx8mp_reset_assert(struct reset_controller_dev *@rcdev,unsigned long@id,)	reset-imx7.c -0.9953234662592924
+int iqs62x_resume(struct device *@dev,)	iqs62x.c -0.9953234666759827
+int pca9541_select_chan(struct i2c_mux_core *@muxc,unsigned int@chan,)	i2c-mux-pca9541.c -0.9953234672281346
+void __aarp_expire(struct aarp_entry *@a,)	 -0.995323467457855
+_Bool trace_bcache_read_enabled()	bcache.h -0.9953234682533593
+int avic_unaccelerated_access_interception(struct vcpu_svm *@svm,)	avic.c -0.9953234685051291
+int v4l_enable_media_source(struct video_device *@vdev,)	 -0.9953234685983603
+void ssp_refresh_task(struct work_struct *@work,)	ssp_dev.c -0.9953234687869255
+int ctnetlink_get_conntrack(struct net *@net,struct sock *@ctnl,struct sk_buff *@skb,const struct nlmsghdr *@nlh,const struct nlattr *const []@cda,struct netlink_ext_ack *@extack,)	nf_conntrack_netlink.c -0.9953234692056586
+void _rtl92s_firmwareheader_priveupdate(struct ieee80211_hw *@hw,struct fw_priv *@pfw_priv,)	fw.c -0.9953234694090941
+void trace_regmap_async_io_complete(struct regmap *@map,)	trace.h -0.9953234696297883
+int __intel_context_do_pin_ww(struct intel_context *@ce,struct i915_gem_ww_ctx *@ww,)	intel_context.c -0.9953234707452664
+int cma_query_ib_route(struct rdma_id_private *@id_priv,unsigned long@timeout_ms,struct cma_work *@work,)	 -0.9953234707585847
+void acpi_sb_notify(void *@handle,unsigned int@event,void *@data,)	bus.c -0.9953234715387935
+void npcm_i2c_irq_handle_nmatch(struct npcm_i2c *@bus,)	 -0.99532347238814
+int h_init(struct smq_hash_table *@ht,struct entry_space *@es,unsigned int@nr_entries,)	 -0.995323472684333
+void trace_kvm_nested_intercepts_rcuidle(unsigned short@cr_read,unsigned short@cr_write,unsigned int@exceptions,unsigned int@intercept1,unsigned int@intercept2,unsigned int@intercept3,)	trace.h -0.9953234737772104
+int us122l_usb_probe(struct usb_interface *@intf,const struct usb_device_id *@device_id,struct snd_card **@cardp,)	 -0.9953234737974714
+int nfp_abm_eswitch_set_switchdev(struct nfp_abm *@abm,)	 -0.9953234743768635
+int arc_ps2_write(struct serio *@io,unsigned char@val,)	arc_ps2.c -0.9953234744279653
+void tasklet_lock(struct tasklet_struct *@t,)	 -0.9953234744693634
+void ecm_notify_complete(struct usb_ep *@ep,struct usb_request *@req,)	f_ecm.c -0.9953234756078541
+void __iwl_crit(struct device *@dev,const char *@fmt,)	 -0.9953234759754312
+int nft_reject_icmpv6_code(unsigned char@code,)	 -0.9953234760888432
+int bucket_straw2_choose(const struct crush_bucket_straw2 *@bucket,int@x,int@r,const struct crush_choose_arg *@arg,int@position,)	 -0.9953234768438806
+unsigned int nfsd4_verify(struct svc_rqst *@rqstp,struct nfsd4_compound_state *@cstate,union nfsd4_op_u *@u,)	nfs4proc.c -0.9953234772289619
+int s5p_hash_final(struct ahash_request *@req,)	 -0.9953234784775561
+int lola_mixer_set_mapping_gain(struct lola *@chip,unsigned int@src,unsigned int@dest,unsigned short@gain,_Bool@on,)	 -0.9953234800142232
+_Bool ixgbevf_can_reuse_rx_page(struct ixgbevf_rx_buffer *@rx_buffer,)	 -0.995323480105538
+int switch_gc_head(struct ubifs_info *@c,)	 -0.9953234810435413
+void wlc_phy_chanspec_radio_set(struct brcms_phy_pub *@ppi,unsigned short@newch,)	 -0.9953234811759436
+int mv88e6352_g2_scratch_gpio_get_dir(struct mv88e6xxx_chip *@chip,unsigned int@pin,)	global2_scratch.c -0.9953234834272167
+int drv_set_tx_power(struct ieee802154_local *@local,int@mbm,)	 -0.9953234836887997
+void perf_trace_v3d_submit_tfu_ioctl(void *@__data,struct drm_device *@dev,unsigned int@iia,)	v3d_trace.h -0.9953234838244331
+int hdc100x_buffer_postenable(struct iio_dev *@indio_dev,)	hdc100x.c -0.995323485554892
+_Bool trace_add_delayed_tree_ref_enabled()	btrfs.h -0.99532348565694
+void osd_req_op_cls_request_data_bvecs(struct ceph_osd_request *@osd_req,unsigned int@which,struct bio_vec *@bvecs,unsigned int@num_bvecs,unsigned int@bytes,)	 -0.99532348804247
+unsigned char pcf50633_reg_read(struct pcf50633 *@,unsigned char@reg,)	 -0.9953234881081798
+void blogic_setcmdparam(struct blogic_adapter *@adapter,unsigned char@value,)	 -0.9953234893551433
+const u16 * sh_eth_get_register_offset(int@register_type,)	 -0.9953233769039578
+void seq_print_minor_vnr_req(struct seq_file *@m,struct drbd_request *@req,unsigned long@now,)	 -0.9953233774457309
+int algorithm_is_DDF(int@layout,)	raid5.h -0.9953233776555611
+int get_temp_common(const struct tsens_sensor *@s,int *@temp,)	tsens.c -0.9953233779060653
+int atomisp_digital_zoom(struct atomisp_sub_device *@asd,int@flag,__s32 *@value,)	 -0.9953233793519105
+int lpfc_get_hba_info(struct lpfc_hba *@phba,uint32_t *@mxri,uint32_t *@axri,uint32_t *@mrpi,uint32_t *@arpi,uint32_t *@mvpi,uint32_t *@avpi,)	 -0.9953233798798405
+void mei_me_pg_set(struct mei_device *@dev,)	 -0.9953233803459792
+struct exynos_media_pipeline * fimc_md_pipeline_create(struct fimc_md *@fmd,)	 -0.9953233806592751
+int cdns_role_set(struct usb_role_switch *@sw,enum usb_role@role,)	core.c -0.9953233809073078
+long store_state_field(struct device *@dev,struct device_attribute *@attr,const char *@buf,unsigned long@count,)	scsi_sysfs.c -0.9953233820243684
+void ftrace_test_probe_rdev_join_ocb()	trace.h -0.9953233824060017
+int cap_task_setioprio(struct task_struct *@p,int@ioprio,)	commoncap.c -0.9953233825101262
+int i40e_add_channel(struct i40e_pf *@pf,unsigned short@uplink_seid,struct i40e_channel *@ch,)	 -0.995323383627377
+void vmw_binding_build_asserts()	vmwgfx_binding.c -0.9953233839820304
+long iscsi_disc_password_store(struct config_item *@item,const char *@page,unsigned long@count,)	iscsi_target_configfs.c -0.9953233850313571
+void netup_unidvb_dvb_fini(struct netup_unidvb_dev *@ndev,int@num,)	 -0.9953233875566937
+unsigned long __find_buddy_pfn(unsigned long@page_pfn,unsigned int@order,)	 -0.9953233876173453
+void mc5_dbgi_mode_enable(const struct mc5 *@mc5,)	mc5.c -0.9953233877876102
+_Bool dmub_dcn20_is_gpint_acked(struct dmub_srv *@dmub,union dmub_gpint_data_register@reg,)	dmub_dcn20.c -0.9953233888363628
+int g2d_suspend(struct device *@dev,)	exynos_drm_g2d.c -0.9953233891739206
+int lkb_idr_is_any(int@id,void *@p,void *@data,)	lockspace.c -0.9953233891771864
+int a500_battery_get_ec_data_index(struct device *@dev,enum power_supply_property@psp,)	 -0.9953233902076765
+int atl1_setup_link(struct atl1_hw *@hw,)	 -0.995323390918215
+int snd_pcm_oss_set_subdivide(struct snd_pcm_oss_file *@pcm_oss_file,int@subdivide,)	 -0.9953233912749697
+long da9052_vbbat_show(struct device *@dev,struct device_attribute *@devattr,char *@buf,)	da9052-hwmon.c -0.9953233926893945
+long show_mem_gpio_reg(struct device *@d,struct device_attribute *@attr,char *@buf,)	ipw2200.c -0.9953233945207793
+int mlx5i_get_link_ksettings(struct net_device *@netdev,struct ethtool_link_ksettings *@link_ksettings,)	ethtool.c -0.9953233949855986
+unsigned int get_temp_alert_config(const struct lpddr2_addressing *@addressing,const struct emif_custom_configs *@custom_configs,_Bool@cs1_used,unsigned int@sdram_io_width,unsigned int@emif_bus_width,)	 -0.9953233969718452
+_Bool xfs_sb_version_hasprojid32bit(struct xfs_sb *@sbp,)	 -0.9953233978771094
+int xenbus_probe_backend_unit(struct xen_bus_type *@bus,const char *@dir,const char *@type,const char *@name,)	 -0.9953233979754699
+struct can_ml_priv * can_get_ml_priv(struct net_device *@dev,)	 -0.995323398282595
+_Bool spi_engine_write_cmd_fifo(struct spi_engine *@spi_engine,)	 -0.995323398729406
+void __page_reporting_request(struct page_reporting_dev_info *@prdev,)	page_reporting.c -0.9953233987587943
+int iscsi_target_handle_csg_zero(struct iscsi_conn *@conn,struct iscsi_login *@login,)	iscsi_target_nego.c -0.9953233988654673
+int pinctrl_generic_get_group_pins(struct pinctrl_dev *@pctldev,unsigned int@group_selector,const unsigned int **@pins,unsigned int *@npins,)	 -0.9953233991746678
+int PWM_FREQ_FROM_REG(int@reg,)	dme1737.c -0.9953234004224967
+unsigned long pwm_freq_from_reg(unsigned char@reg,)	 -0.9953234004224967
+int nouveau_bo_move_m2mf(struct ttm_buffer_object *@bo,int@evict,struct ttm_operation_ctx *@ctx,struct ttm_resource *@new_reg,)	 -0.9953234006105356
+_Bool __pool_full(struct ceph_pg_pool_info *@pi,)	 -0.9953234008024066
+long long tick_nohz_next_event(struct tick_sched *@ts,int@cpu,)	 -0.9953234009367137
+bool * __check_use_ktime()	gameport.c -0.9953234025604788
+int hpre_dh_set_params(struct hpre_ctx *@ctx,struct dh *@params,)	 -0.9953234046829256
+struct mixart_pipe * snd_mixart_add_ref_pipe(struct snd_mixart *@chip,int@pcm_number,int@capture,int@monitoring,)	 -0.9953234051659333
+int fsl_esai_runtime_resume(struct device *@dev,)	fsl_esai.c -0.9953234052934271
+int aspeed_master_link_enable(struct fsi_master *@master,int@link,_Bool@enable,)	fsi-master-aspeed.c -0.9953234053389795
+void lowpan_dev_debugfs_init(struct net_device *@dev,)	debugfs.c -0.9953234055040905
+enum vchiq_status vchiq_add_service(struct vchiq_instance *@instance,const struct vchiq_service_params_kernel *@params,unsigned int *@phandle,)	 -0.995323405875163
+int cudbg_collect_pbt_tables(struct cudbg_init *@pdbg_init,struct cudbg_buffer *@dbg_buff,struct cudbg_error *@cudbg_err,)	cudbg_lib.c -0.9953234063415926
+void apply_upmap(struct ceph_osdmap *@osdmap,const struct ceph_pg *@pgid,struct ceph_osds *@raw,)	osdmap.c -0.9953234073250428
+int afs_query_for_alias_one(struct afs_cell *@cell,struct key *@key,struct afs_cell *@p,)	 -0.9953234086497666
+unsigned char b43legacy_radio_aci_detect(struct b43legacy_wldev *@dev,unsigned char@channel,)	 -0.99532340974685
+int tipc_bc_link_set_queue_limits(struct net *@net,unsigned int@max_win,)	bcast.c -0.9953234102691229
+void iscsi_sw_tcp_conn_get_stats(struct iscsi_cls_conn *@cls_conn,struct iscsi_stats *@stats,)	iscsi_tcp.c -0.9953234106910753
+void set_tx_desc_cts_enable(__le32 *@__pdesc,unsigned int@__val,)	 -0.9953234114694427
+int adf_ae_fw_load(struct adf_accel_dev *@accel_dev,)	adf_accel_engine.c -0.9953234118529063
+unsigned long long get_next_mid64(struct TCP_Server_Info *@server,)	 -0.9953234123010578
+unsigned short get_next_mid(struct TCP_Server_Info *@server,)	 -0.9953234123010578
+int uvc_v4l2_dqbuf(struct file *@file,void *@fh,struct v4l2_buffer *@b,)	uvc_v4l2.c -0.995323412479636
+unsigned int isp_video_mbus_to_pix(const struct isp_video *@video,const struct v4l2_mbus_framefmt *@mbus,struct v4l2_pix_format *@pix,)	 -0.9953234146987497
+int tvp5150_reset(struct v4l2_subdev *@sd,unsigned int@val,)	 -0.9953234149939405
+int mid_chip_setup(struct drm_device *@dev,)	 -0.9953234153257682
+int device_user_unlock(struct dlm_user_proc *@proc,struct dlm_lock_params *@params,)	 -0.29843150240487015
+void nicvf_snd_ptp_handler(struct net_device *@netdev,struct cqe_send_t *@cqe_tx,)	 -0.2993625761525863
+void unlock_fdc()	 -0.30025971210880115
+void cdev_purge(struct cdev *@cdev,)	 -0.30051481525620527
+void unlock_device_hash_lock(struct r5conf *@conf,int@hash,)	 -0.30057135554351705
+void check_trace_callback_type_ext4_ext_map_blocks_exit(void (*)(void *, struct inode *, unsigned int, struct ext4_map_blocks *, int)@cb,)	 -0.3009790797272761
+void bna_enet_sm_stopped_entry(struct bna_enet *@enet,)	 -0.300983939633512
+int vx_stop_stream(struct vx_core *@chip,struct vx_pipe *@pipe,)	 -0.3013167543665224
+struct rw_semaphore * rwsem_downgrade_wake(struct rw_semaphore *@sem,)	 -0.30160060240970055
+int  put_daio(struct daio_mgr *@daio_mgr,struct daio *@daio,)	 -0.3017099648565586
+void usermodehelper_read_unlock()	 -0.30190271804208413
+void smc_ib_put_memory_region(struct ib_mr *@mr,)	 -0.30212323941764657
+int btmrvl_close(struct hci_dev *@hdev,)	btmrvl_main.c -0.3023353412966878
+const struct fscache_state * fscache_object_dead(struct fscache_object *@object,int@event,)	object.c -0.302578330222821
+unsigned int gss_pseudoflavor_to_service(struct gss_api_mech *@gm,unsigned int@pseudoflavor,)	gss_mech_switch.c -0.3039757602933869
+void perf_trace_mlx5_fs_del_fg(void *@__data,const struct mlx5_flow_group *@fg,)	fs_tracepoint.h -0.3043580559782938
+int ef4_register_netdev(struct ef4_nic *@efx,)	 -0.30443967737268895
+int ef100_register_netdev(struct efx_nic *@efx,)	ef100_netdev.c -0.30443967737268895
+void rvt_remove_qp(struct rvt_dev_info *@rdi,struct rvt_qp *@qp,)	 -0.30451475362841807
+unsigned int dpaa2_dq_fqid(const struct dpaa2_dq *@dq,)	dpaa2-global.h -0.3045551899681084
+void bsg_job_put(struct bsg_job *@job,)	 -0.305282958879338
+int bnx2x_q_send_terminate(struct bnx2x *@bp,struct bnx2x_queue_state_params *@params,)	 -0.3053143929700137
+int __traceiter_ocfs2_decrease_refcount(void *@__data,unsigned long long@owner,unsigned long long@cpos,unsigned int@len,int@delete,)	ocfs2_trace.h -0.3055183074479825
+int ast_mm_init(struct ast_private *@ast,)	ast_mm.c -0.3060482592964838
+void icm_icl_device_connected(struct tb *@tb,const struct icm_pkg_header *@hdr,)	icm.c -0.3061561432818072
+int snd_ad1816a_playback_close(struct snd_pcm_substream *@substream,)	ad1816a_lib.c -0.30666765767749404
+int tegra_vde_ioctl_decode_h264(struct tegra_vde *@vde,unsigned long@vaddr,)	 -0.30695472078153735
+void ieee80211_wep_remove_iv(struct ieee80211_local *@local,struct sk_buff *@skb,struct ieee80211_key *@key,)	wep.c -0.30710723762535763
+int snd_atiixp_capture_close(struct snd_pcm_substream *@substream,)	atiixp.c -0.30753211552165083
+void bnxt_del_napi(struct bnxt *@bp,)	 -0.30789475577395786
+void smcr_buf_unmap_link(struct smc_buf_desc *@buf_desc,_Bool@is_rmb,struct smc_link *@lnk,)	 -0.30812870443232626
+void trace_hfi1_mmu_rb_remove(unsigned long@addr,unsigned long@len,)	 -0.3082033996798898
+void api_cmd_chain_hw_clean(struct hinic_api_cmd_chain *@chain,)	 -0.3085248306874778
+struct aa_label * aa_cred_raw_label(const struct cred *@cred,)	 -0.3089122295147062
+int usb_generic_driver_suspend(struct usb_device *@udev,struct pm_message@msg,)	generic.c -0.3090235861644233
+void __bpf_trace_station_del(void *@__data,struct wiphy *@wiphy,struct net_device *@netdev,struct station_del_parameters *@params,)	trace.h -0.3093899241950718
+void prb_close_block(struct tpacket_kbdq_core *@pkc1,struct tpacket_block_desc *@pbd1,struct packet_sock *@po,unsigned int@stat,)	af_packet.c -0.3096288105362046
+void dwc2_deactivate_qh(struct dwc2_hsotg *@hsotg,struct dwc2_qh *@qh,int@free_qtd,)	 -0.3102357888171423
+void o2nm_cluster_group_drop_item(struct config_group *@group,struct config_item *@item,)	nodemanager.c -0.3103720675059466
+struct stmmac_flow_entry * tc_find_flow(struct stmmac_priv *@priv,struct flow_cls_offload *@cls,_Bool@get_free,)	 -0.3105061550760615
+int mei_cl_disconnect(struct mei_cl *@cl,)	 -0.310651988384819
+int __mei_cl_disconnect(struct mei_cl *@cl,)	client.c -0.310651988384819
+int dvb_frontend_is_exiting(struct dvb_frontend *@fe,)	 -0.31068523846470625
+int register_trace_ocfs2_orphan_filldir(void (*)(void *, unsigned long long)@probe,void *@data,)	ocfs2_trace.h -0.31085025807875566
+void __bpf_trace_xrep_calc_ag_resblks(void *@__data,struct xfs_mount *@mp,unsigned int@agno,unsigned int@icount,unsigned int@aglen,unsigned int@freelen,unsigned int@usedlen,)	trace.h -0.3110946331794421
+int bmap_would_wrap(unsigned int@bmap_nr,)	 -0.31184284225987635
+void inet_forward_change(struct net *@net,)	 -0.3120879660501727
+int register_trace_prio_rdev_del_mpath(void (*)(void *, struct wiphy *, struct net_device *, const u8 *)@probe,void *@data,int@prio,)	trace.h -0.31219769500410977
+void do_nothing_small_hole_zero(struct test_small_hole *@ptr,)	 -0.31283916255706845
+int ubifs_find_free_space(struct ubifs_info *@c,int@min_space,int *@offs,int@squeeze,)	find.c -0.3130830048420628
+int bna_rxf_mcast_cfg_reset(struct bna_rxf *@rxf,enum bna_cleanup_type@cleanup,)	bna_tx_rx.c -0.3134754468938834
+void  tlb_flush_all(struct isp_mmu *@isp_mmu,)	 -0.31347744161846186
+int sk_CONF_IMODULE_push(struct stack_st_CONF_IMODULE *@sk,CONF_IMODULE *@ptr,)	conf.h -0.31376533170270837
+int smp_cancel_and_remove_pairing(struct hci_dev *@hdev,bdaddr_t *@bdaddr,unsigned char@addr_type,)	smp.c -0.3143449296027833
+void x25_neigh_put(struct x25_neigh *@nb,)	 -0.3156074835398901
+int run_delalloc_nocow(struct btrfs_inode *@inode,struct page *@locked_page,unsigned long long@start,unsigned long long@end,int *@page_started,int@force,unsigned long *@nr_written,)	inode.c -0.31594806171815626
+void sg_clean(struct usb_sg_request *@io,)	message.c -0.3162377245706592
+int register_trace_prio_rdev_disconnect(void (*)(void *, struct wiphy *, struct net_device *, u16)@probe,void *@data,int@prio,)	trace.h -0.3173008312572523
+_Bool peernet_has_id(const struct net *@net,struct net *@peer,)	 -0.3175527910207361
+void perf_test_probe_nfs_lookup_revalidate_exit()	nfstrace.h -0.3177571466972182
+void bpf_test_probe_smb3_insufficient_credits()	trace.h -0.31794940463093485
+void ssb_device_shutdown(struct device *@dev,)	main.c -0.3182781931563752
+int  cport_connected(struct gb_host_device *@gb_host_device,u16@u16,)	 -0.31872081938347385
+void drop_node(struct config_group *@g,struct config_item *@i,)	config.c -0.31927206809985187
+void perf_test_probe_xfs_remove()	xfs_trace.h -0.31931618825981767
+void  link_poll(struct net_device *@net_device,)	 -0.31984959533128066
+void nvkm_fifo_chan_child_del(struct nvkm_oproxy *@base,)	chan.c -0.32010962866889947
+int igt_evict(void *@ignored,)	test-drm_mm.c -0.32012580386092127
+long nullb_device_discard_store(struct config_item *@item,const char *@page,unsigned long@count,)	main.c -0.3203975192743599
+int resource_statistics_to_unpriv_skb(struct sk_buff *@skb,struct resource_statistics *@s,)	drbd_genl.h -0.32042860836013565
+_Bool i915_fence_signaled(struct dma_fence *@fence,)	i915_request.c -0.32046126288353155
+void __io_rsrc_put_work(struct fixed_rsrc_ref_node *@ref_node,)	io_uring.c -0.3206554081351347
+void vsock_addr_unbind(struct sockaddr_vm *@addr,)	vsock_addr.c -0.32070553525401974
+void gk104_fifo_runlist_remove(struct gk104_fifo *@,struct gk104_fifo_chan *@,)	 -0.32228426765522955
+_Bool is_memblock_offlined(struct memory_block *@mem,)	memory.c -0.322700669345216
+unsigned int map_oplock_to_lease(unsigned char@oplock,)	 -0.32276496247380576
+void mlx5e_mod_hdr_detach(struct mlx5_core_dev *@mdev,struct mod_hdr_tbl *@tbl,struct mlx5e_mod_hdr_handle *@mh,)	 -0.32311798777548145
+void fib6_clean_tree(struct net *@net,struct fib6_node *@root,int (*)(struct fib6_info *, void *)@func,int@sernum,void *@arg,_Bool@skip_notify,)	 -0.3232552075722541
+int maya_pb_route_put(struct snd_kcontrol *@kcontrol,struct snd_ctl_elem_value *@ucontrol,)	maya44.c -0.32329762674730483
+void __intel_shared_reg_put_constraints(struct cpu_hw_events *@cpuc,struct hw_perf_event_extra *@reg,)	 -0.3235219251636375
+_Bool memcg_kmem_bypass()	 -0.32420009743273615
+void audit_ctl_unlock()	 -0.3253643240041505
+void acpi_ut_remove_address_range(unsigned char@space_id,struct acpi_namespace_node *@region_node,)	 -0.3254860724448538
+int ramoops_pstore_erase(struct pstore_record *@record,)	ram.c -0.32549153104276307
+void ftrace_test_probe_ocfs2_delete_entry_dx()	ocfs2_trace.h -0.32552276145399206
+int bdi_sched_wait(void *@word,)	backing-dev.h -0.32571373306851514
+int device_kill_open_processes(struct hl_device *@hdev,unsigned int@timeout,)	device.c -0.3259617976556662
+int vsp1_pipeline_stop(struct vsp1_pipeline *@pipe,)	 -0.327070578319786
+void tcmu_unmap_work_fn(struct work_struct *@work,)	target_core_user.c -0.3272223338167044
+void mtk_thermal_put_bank(struct mtk_thermal_bank *@bank,)	 -0.32743025966287487
+void acpi_ex_unlink_mutex(union acpi_operand_object *@obj_desc,)	 -0.32765538408418415
+int register_trace_cdnsp_remove_request(void (*)(void *, struct cdnsp_ep_ctx *)@probe,void *@data,)	cdnsp-trace.h -0.3279118978928475
+void cxgbi_sock_rcv_close_conn_rpl(struct cxgbi_sock *@csk,unsigned int@snd_nxt,)	libcxgbi.c -0.3279360170620871
+int trace_event_get_offsets_sys_exit(struct trace_event_data_offsets_sys_exit *@__data_offsets,struct pt_regs *@regs,long@ret,)	 -0.3281437358980499
+_Bool btmrvl_prevent_wake(struct hci_dev *@hdev,)	btmrvl_main.c -0.3285159159727368
+void rcar_msi_teardown_irq(struct msi_controller *@chip,unsigned int@irq,)	pcie-rcar-host.c -0.32876998166915905
+int tegra30_i2s_platform_probe(struct platform_device *@pdev,)	tegra30_i2s.c -0.32906683316217283
+int sja1105_vlan_del_one(struct dsa_switch *@ds,int@port,unsigned short@vid,struct list_head *@vlan_list,)	 -0.32908962482940163
+int allow_medium_removal(struct scsi_cmnd *@srb,struct rtsx_chip *@chip,)	rtsx_scsi.c -0.32918994330492796
+int fuse_device_clone(struct fuse_conn *@fc,struct file *@new,)	 -0.32967574148190393
+void vfio_container_put(struct vfio_container *@container,)	 -0.3296837045893679
+void ar5008_hw_init_txpower_cck(struct ath_hw *@ah,int16_t *@rate_array,)	ar5008_phy.c -0.9916809863024331
+void bpf_test_probe_ocfs2_initialize_super()	ocfs2_trace.h -0.9916810085128218
+int vmci_host_do_send_datagram(struct vmci_host_dev *@vmci_host_dev,const char *@ioctl_name,void *@uptr,)	 -0.9916814778935061
+unsigned long mpihelp_sub_1(mpi_limb_t *@res_ptr,mpi_limb_t *@s1_ptr,int@s1_size,unsigned long@s2_limb,)	 -0.9916817038353739
+int fsl_qspi_exec_op(struct spi_mem *@mem,const struct spi_mem_op *@op,)	spi-fsl-qspi.c -0.9916818542338706
+int qbman_swp_CDAN_set_context_enable(struct qbman_swp *@s,unsigned short@channelid,unsigned long long@ctx,)	qbman-portal.h -0.9916818782177659
+int mlx5e_dcbnl_switch_to_host_mode(struct mlx5e_priv *@priv,)	 -0.9916819758870632
+struct net_device * ndo_get_xmit_slave(struct net_device *@net_device,struct sk_buff *@sk_buff,bool@bool,)	 -0.9916821758707524
+unsigned long roce_gid_type_mask_support(struct ib_device *@ib_dev,unsigned char@port,)	 -0.9916839972501774
+int  destroy_flow_table(struct mlx5_flow_root_namespace *@mlx5_flow_root_namespace,struct mlx5_flow_table *@mlx5_flow_table,)	 -0.9916856449498865
+long kernfs_iop_listxattr(struct dentry *@dentry,char *@buf,unsigned long@size,)	inode.c -0.9916859126619586
+long amdgpu_ttm_vram_write(struct file *@f,const char *@buf,unsigned long@size,loff_t *@pos,)	amdgpu_ttm.c -0.9916876295011421
+unsigned int opaque_hashval(const void *@ptr,int@nbytes,)	 -0.9916886173155017
+unsigned int fd_execute_unmap(struct se_cmd *@cmd,unsigned long long@lba,unsigned long long@nolb,)	target_core_file.c -0.9916891770230037
+void nvme_nvm_dev_dma_free(void *@pool,void *@addr,unsigned long long@dma_handler,)	lightnvm.c -0.9916919597401582
+int input_action_end_dx2(struct sk_buff *@skb,struct seg6_local_lwt *@slwt,)	seg6_local.c -0.9916921532595973
+int input_action_end_dx6(struct sk_buff *@skb,struct seg6_local_lwt *@slwt,)	seg6_local.c -0.9916921532595973
+int input_action_end_dx4(struct sk_buff *@skb,struct seg6_local_lwt *@slwt,)	seg6_local.c -0.9916921532595973
+int and_imm64(struct nfp_prog *@nfp_prog,struct nfp_insn_meta *@meta,)	jit.c -0.9916940821838995
+int and_imm(struct nfp_prog *@nfp_prog,struct nfp_insn_meta *@meta,)	jit.c -0.9916940821838995
+int register_trace_prio_xrep_init_btblock(void (*)(void *, struct xfs_mount *, xfs_agnumber_t, xfs_agblock_t, xfs_btnum_t)@probe,void *@data,int@prio,)	trace.h -0.9916941929375096
+int nfp_net_check_config(struct nfp_net *@nn,struct nfp_net_dp *@dp,struct netlink_ext_ack *@extack,)	nfp_net_common.c -0.9916948947111033
+void s6e8aa0_elvss_nvm_set(struct s6e8aa0 *@ctx,)	 -0.9916967673912119
+enum i40iw_status_code i40iw_obj_aligned_mem(struct i40iw_device *@iwdev,struct i40iw_dma_mem *@memptr,unsigned int@size,unsigned int@mask,)	 -0.9916968171871332
+void srp_destroy_fr_pool(struct srp_fr_pool *@pool,)	 -0.9916982481257585
+int k90_init_backlight(struct hid_device *@dev,)	 -0.9916990167394603
+struct xfs_trans * xfs_trans_dup(struct xfs_trans *@tp,)	xfs_trans.c -0.9916992323703204
+void mt76_tx_check_non_aql(struct mt76_dev *@dev,unsigned short@wcid_idx,struct sk_buff *@skb,)	tx.c -0.9917005707197373
+unsigned long long virt_to_phys_or_null_size(void *@va,unsigned long@size,)	 -0.9917012957737456
+void kvm_arch_vcpu_unblocking(struct kvm_vcpu *@vcpu,)	 -0.9917025564519478
+void bnx2x_mcp_wait_one(struct bnx2x *@bp,)	 -0.9917026333675039
+void icm_usb4_switch_nvm_auth_complete(void *@data,)	icm.c -0.9917031048534376
+void uniphier_spi_set_fifo_threshold(struct uniphier_spi_priv *@priv,unsigned int@threshold,)	 -0.9917032580912399
+struct qlge_adapter * netdev_to_qdev(struct net_device *@ndev,)	 -0.9917050036754049
+void devm_arcnet_led_init(struct net_device *@netdev,int@index,int@subid,)	 -0.9917063226260641
+void netvsc_xdp_xmit(struct sk_buff *@skb,struct net_device *@ndev,)	netvsc_drv.c -0.9917094090712939
+int ipw2100_configure_security(struct ipw2100_priv *@priv,int@batch_mode,)	 -0.9917099996295077
+unsigned long long ntb_db_vector_mask(struct ntb_dev *@ntb,int@vector,)	 -0.99171014196312
+_Bool nvmet_tcp_has_inline_data(struct nvmet_tcp_cmd *@cmd,)	 -0.9917105529027712
+void perf_test_probe_amdgpu_vm_bo_map()	amdgpu_trace.h -0.9917112403527722
+void mlxsw_sp2_kvdl_part_free(struct mlxsw_sp *@mlxsw_sp,struct mlxsw_sp2_kvdl_part *@part,unsigned int@size,unsigned int@kvdl_index,)	 -0.9917117593336023
+int cpsw_fill_rx_channels(struct cpsw_priv *@priv,)	 -0.991711791308451
+_Bool virtio_mem_could_add_memory(struct virtio_mem *@vm,unsigned long long@size,)	 -0.991713446605826
+int llc_conn_remove_acked_pdus(struct sock *@sk,unsigned char@nr,u16 *@how_many_unacked,)	llc_conn.c -0.9917136755217131
+int inv_icm42600_buffer_set_fifo_en(struct inv_icm42600_state *@st,unsigned int@fifo_en,)	 -0.9917140200445798
+long roccat_common2_sysfs_write_control(struct file *@fp,struct kobject *@kobj,struct bin_attribute *@attr,char *@buf,long long@off,unsigned long@count,)	hid-roccat-konepure.c -0.9917156222562342
+int _virtnet_set_queues(struct virtnet_info *@vi,unsigned short@queue_pairs,)	 -0.9917165159662642
+int virtnet_set_queues(struct virtnet_info *@vi,unsigned short@queue_pairs,)	 -0.9917165159662642
+u8 * usb_ext_prop_size_ptr(u8 *@buf,)	 -0.9917169706973027
+int nsblk_rw_bytes(struct nd_namespace_common *@ndns,unsigned long long@offset,void *@iobuf,unsigned long@n,int@rw,unsigned long@flags,)	blk.c -0.991718048024888
+_Bool ip_set_attr_netorder(struct nlattr *[]@tb,int@type,)	 -0.9917192011737618
+int brcmf_cfg80211_up(struct net_device *@ndev,)	 -0.9917193305616243
+void qed_prs_init_pf(struct qed_hwfn *@p_hwfn,)	qed_cxt.c -0.9917199132540633
+int ext4_move_extents(struct file *@o_filp,struct file *@d_filp,unsigned long long@orig_blk,unsigned long long@donor_blk,unsigned long long@len,__u64 *@moved_len,)	move_extent.c -0.9917213507888389
+void otx2_setup_segmentation(struct otx2_nic *@pfvf,)	otx2_common.c -0.9917216684883177
+int etnaviv_sched_init(struct etnaviv_gpu *@gpu,)	etnaviv_sched.c -0.991723335022191
+_Bool brcmf_proto_is_reorder_skb(struct sk_buff *@skb,)	 -0.9917234733084787
+unsigned int igc_rx_offset(struct igc_ring *@rx_ring,)	 -0.9917236374307562
+void cdns3_ep0_run_transfer(struct cdns3_device *@priv_dev,unsigned long long@dma_addr,unsigned int@length,int@erdy,int@zlp,)	 -0.9917241212318003
+long roccat_common2_sysfs_read_profile_settings(struct file *@fp,struct kobject *@kobj,struct bin_attribute *@attr,char *@buf,long long@off,unsigned long@count,)	hid-roccat-konepure.c -0.9917255326146962
+void nf_synproxy_ipv4_fini(struct synproxy_net *@snet,struct net *@net,)	 -0.9917259766314054
+void nf_synproxy_ipv6_fini(struct synproxy_net *@snet,struct net *@net,)	 -0.9917259766314054
+int ocfs2_block_extent_contig(struct super_block *@sb,struct ocfs2_extent_rec *@ext,unsigned long long@blkno,)	alloc.c -0.9917270443771091
+int find_wqe_mtt(struct hns_roce_dev *@hr_dev,struct hns_roce_qp *@hr_qp,u64 *@sq_ba,u64 *@rq_ba,dma_addr_t *@bt_ba,)	 -0.9917274981576651
+void esw_vport_destroy_legacy_acl_tables(struct mlx5_eswitch *@esw,struct mlx5_vport *@vport,)	 -0.9917284683570518
+enum netdev_tx lan743x_netdev_xmit_frame(struct sk_buff *@skb,struct net_device *@netdev,)	lan743x_main.c -0.9917288134634985
+int mlx5_cmd_destroy_flow_group(struct mlx5_flow_root_namespace *@ns,struct mlx5_flow_table *@ft,struct mlx5_flow_group *@fg,)	fs_cmd.c -0.9917293248710486
+int xfs_attr_leaf_newentsize(struct xfs_da_args *@args,int *@local,)	 -0.9917318602836224
+long roccat_common2_sysfs_read_general(struct file *@fp,struct kobject *@kobj,struct bin_attribute *@attr,char *@buf,long long@off,unsigned long@count,)	hid-roccat-savu.c -0.9917323910596038
+struct nfnl_acct_net * nfnl_acct_pernet(struct net *@net,)	 -0.9917329178860452
+void sis190_free_rx_skb(struct sis190_private *@tp,struct sk_buff **@sk_buff,struct RxDesc *@desc,)	 -0.9917341401996709
+int ovl_other_xattr_get(const struct xattr_handler *@handler,struct dentry *@dentry,struct inode *@inode,const char *@name,void *@buffer,unsigned long@size,)	super.c -0.9917342611930842
+struct vfio_pfn * vfio_find_vpfn(struct vfio_dma *@dma,unsigned long long@iova,)	 -0.9917350121456688
+void hns_dsaf_set_promisc_tcam(struct dsaf_device *@dsaf_dev,unsigned int@port,_Bool@enable,)	hns_dsaf_main.c -0.9917367969759389
+int __do_cpuid_func(struct kvm_cpuid_array *@array,unsigned int@function,)	 -0.9917368923605011
+int ip_rcv_finish_core(struct net *@net,struct sock *@sk,struct sk_buff *@skb,struct net_device *@dev,const struct sk_buff *@hint,)	 -0.991739696537086
+int dccp_v4_do_rcv(struct sock *@sk,struct sk_buff *@skb,)	 -0.9917406778959542
+int dccp_v6_do_rcv(struct sock *@sk,struct sk_buff *@skb,)	ipv6.c -0.9917406778959542
+int ath5k_eeprom_init_header(struct ath5k_hw *@ah,)	eeprom.c -0.9917410272523111
+int register_trace_prio_xfs_itruncate_extents_start(void (*)(void *, struct xfs_inode *, xfs_fsize_t)@probe,void *@data,int@prio,)	xfs_trace.h -0.9917416328631283
+int netif_attrmask_next_and(int@n,const unsigned long *@src1p,const unsigned long *@src2p,unsigned int@nr_bits,)	 -0.9917419764067898
+void bna_rit_init(struct bna_rxf *@rxf,int@rit_size,)	 -0.9917423614808917
+int ipw_fw_dma_command_block_index(struct ipw_priv *@priv,)	 -0.9917426736136723
+int mlx4_ib_umem_write_mtt(struct mlx4_ib_dev *@dev,struct mlx4_mtt *@mtt,struct ib_umem *@umem,)	 -0.9917441604296924
+void perf_test_probe_nfsd_layoutstate_unhash()	trace.h -0.9917442474700009
+int ipoib_mcg_open(struct inode *@inode,struct file *@file,)	ipoib_fs.c -0.9917443719369793
+int hash_netnet4_list(const struct ip_set *@set,struct sk_buff *@skb,struct netlink_callback *@cb,)	ip_set_hash_gen.h -0.9917461926564755
+int hash_netnet6_list(const struct ip_set *@set,struct sk_buff *@skb,struct netlink_callback *@cb,)	ip_set_hash_gen.h -0.9917461926564755
+const char * sysctl_find_alias(char *@param,)	 -0.991747331365876
+void renesas_sdhi_internal_dmac_dataend_dma(struct tmio_mmc_host *@host,)	renesas_sdhi_internal_dmac.c -0.9917484312662659
+void amdgpu_xgmi_ras_fini(struct amdgpu_device *@adev,)	amdgpu_xgmi.c -0.9917487380652608
+void remap_and_issue(struct clone *@clone,struct bio *@bio,)	 -0.9917510278615131
+int ia_css_mipi_frame_specify(unsigned int@size_mem_words,_Bool@contiguous,)	sh_css_mipi.c -0.9917521222136527
+void xfs_diflags_to_iflags(struct xfs_inode *@ip,_Bool@init,)	xfs_iops.c -0.9917523643651666
+unsigned int mlxsw_sp1_kvdl_to_entry_index(const struct mlxsw_sp1_kvdl_part_info *@info,unsigned int@kvdl_index,)	 -0.991758735858993
+void xennet_move_rx_slot(struct netfront_queue *@queue,struct sk_buff *@skb,unsigned int@ref,)	 -0.9917597258373696
+long roccat_common2_sysfs_write_sensor(struct file *@fp,struct kobject *@kobj,struct bin_attribute *@attr,char *@buf,long long@off,unsigned long@count,)	hid-roccat-konepure.c -0.9917602852603274
+int sk_X509_PURPOSE_find_ex(struct stack_st_X509_PURPOSE *@sk,X509_PURPOSE *@ptr,)	x509v3.h -0.9915510037506228
+void mlxsw_sp_acl_erp_first_mask_destroy(struct mlxsw_sp_acl_erp_table *@erp_table,struct mlxsw_sp_acl_erp *@erp,)	spectrum_acl_erp.c -0.9915515271363546
+int mlx5_ib_mr_initiator_pfault_handler(struct mlx5_ib_dev *@dev,struct mlx5_pagefault *@pfault,struct mlx5_ib_qp *@qp,void **@wqe,void **@wqe_end,int@wqe_length,)	 -0.9915517542254977
+unsigned int * __check_comedi_default_buf_size_kb()	comedi_fops.c -0.9915531948572337
+int inode_rw_congested(struct inode *@inode,)	backing-dev.h -0.9915533663970284
+void __bpf_trace_v3d_submit_cl_ioctl(void *@__data,struct drm_device *@dev,unsigned int@ct1qba,unsigned int@ct1qea,)	v3d_trace.h -0.9915544022465608
+void pcibios_resource_survey_bus(struct pci_bus *@bus,)	 -0.9915546972538736
+int iwl_txq_gen2_set_tb_with_wa(struct iwl_trans *@trans,struct sk_buff *@skb,struct iwl_tfh_tfd *@tfd,unsigned long long@phys,void *@virt,unsigned short@len,struct iwl_cmd_meta *@meta,)	 -0.9915561754732323
+void gbefb_create_sysfs(struct device *@dev,)	 -0.9915563117372848
+int hns_roce_destroy_cq(struct ib_cq *@ib_cq,struct ib_udata *@udata,)	hns_roce_cq.c -0.9915564471344042
+int seq_copy_in_kernel(char **@bufptr,const void *@src,int@size,)	seq_memory.c -0.9915581785492372
+void __bpf_trace_tcp_event_sk_skb(void *@__data,const struct sock *@sk,const struct sk_buff *@skb,)	tcp.h -0.9915583250460982
+void hci_set_hw_info(struct hci_dev *@hdev,const char *@fmt,)	hci_core.c -0.9915618122092589
+_Bool mlxsw_sp1_span_trigger_global_matches(struct mlxsw_sp_span_trigger_entry *@trigger_entry,enum mlxsw_sp_span_trigger@trigger,struct mlxsw_sp_port *@mlxsw_sp_port,)	spectrum_span.c -0.9915635956079878
+_Bool mlxsw_sp2_span_trigger_global_matches(struct mlxsw_sp_span_trigger_entry *@trigger_entry,enum mlxsw_sp_span_trigger@trigger,struct mlxsw_sp_port *@mlxsw_sp_port,)	spectrum_span.c -0.9915635956079878
+int tpacpi_device_add(struct acpi_device *@device,)	thinkpad_acpi.c -0.9915644403206247
+struct i2c_adapter * viafb_find_i2c_adapter(enum viafb_i2c_adap@which,)	 -0.9915645931103017
+int llc_conn_ev_rx_i_cmd_pbit_set_x_inval_ns(struct sock *@sk,struct sk_buff *@skb,)	llc_c_ev.c -0.9915658147457704
+int brcmf_msgbuf_ioctl_resp_wait(struct brcmf_msgbuf *@msgbuf,)	 -0.9915659071896027
+int smc_pnet_netdev_event(struct notifier_block *@this,unsigned long@event,void *@ptr,)	smc_pnet.c -0.991566076667487
+int amdgpu_vce_sw_fini(struct amdgpu_device *@adev,)	 -0.9915667810665436
+long ath10k_dbg_sta_write_peer_debug_trigger(struct file *@file,const char *@user_buf,unsigned long@count,loff_t *@ppos,)	debugfs_sta.c -0.9915668965351475
+int hpsa_scsi_add_host(struct ctlr_info *@h,)	 -0.9915673627797433
+void combios_write_ram_size(struct drm_device *@dev,)	radeon_combios.c -0.991567905269167
+void amdgpu_ring_insert_nop(struct amdgpu_ring *@ring,unsigned int@count,)	amdgpu_ring.c -0.9915682296358603
+int mlxsw_sp_fid_flood_tables_init(struct mlxsw_sp_fid_family *@fid_family,)	 -0.9915689440857818
+int __traceiter_nfs4_map_gid_to_group(void *@__data,const char *@nfs4_map_gid_to_group,int@len,unsigned int@id,int@error,)	nfs4trace.h -0.9915717825622992
+void ehci_hub_descriptor(struct oxu_hcd *@oxu,struct usb_hub_descriptor *@desc,)	 -0.9915720092627838
+unsigned long mad_priv_dma_size(const struct ib_mad_private *@mp,)	 -0.9915731392473267
+int uhci_fixup_short_transfer(struct uhci_hcd *@uhci,struct uhci_qh *@qh,struct urb_priv *@urbp,)	 -0.9915747915884691
+void mlxsw_afa_cookie_ref_destructor(struct mlxsw_afa_block *@block,struct mlxsw_afa_resource *@resource,)	core_acl_flex_actions.c -0.9915756930813424
+void at91_init_twi_bus_master(struct at91_twi_dev *@dev,)	 -0.9915757780764992
+int svc_rdma_iov_dma_map(void *@data,const struct kvec *@iov,)	 -0.9915764459799752
+void sprd_mcdt_dac_fifo_clear(struct sprd_mcdt_dev *@mcdt,unsigned char@channel,)	sprd-mcdt.c -0.9915765903498952
+int sk_X509_NAME_ENTRY_unshift(struct stack_st_X509_NAME_ENTRY *@sk,X509_NAME_ENTRY *@ptr,)	x509.h -0.991576687694916
+struct nf_ct_helper_expectfn * nf_ct_helper_expectfn_find_by_symbol(const void *@symbol,)	 -0.9915773141630185
+int nvmet_tcp_set_queue_sock(struct nvmet_tcp_queue *@queue,)	 -0.9915824688757304
+int __traceiter_unmap(void *@__data,unsigned long@iova,unsigned long@size,unsigned long@unmapped_size,)	iommu.h -0.9915832144469918
+int qcom_nandc_remove(struct platform_device *@pdev,)	qcom_nandc.c -0.9915862082083209
+void nfs_pageio_init(struct nfs_pageio_descriptor *@desc,struct inode *@inode,const struct nfs_pageio_ops *@pg_ops,const struct nfs_pgio_completion_ops *@compl_ops,const struct nfs_rw_ops *@rw_ops,unsigned long@bsize,int@how,)	 -0.9915868322936241
+int mlxsw_sp_dpipe_host4_table_init(struct mlxsw_sp *@mlxsw_sp,)	spectrum_dpipe.c -0.9915874899464248
+int mlxsw_sp_dpipe_host6_table_init(struct mlxsw_sp *@mlxsw_sp,)	spectrum_dpipe.c -0.9915874899464248
+int nfc_genl_rcv_nl_event(struct notifier_block *@this,unsigned long@event,void *@ptr,)	netlink.c -0.9915876002427859
+void __lpfc_nvme_xmt_ls_rsp_cmp(struct lpfc_hba *@phba,struct lpfc_iocbq *@cmdwqe,struct lpfc_wcqe_complete *@wcqe,)	 -0.9915877806057632
+void blk_mq_init_cpu_queues(struct request_queue *@q,unsigned int@nr_hw_queues,)	blk-mq.c -0.9915895500433118
+int lapb_device_event(struct notifier_block *@this,unsigned long@event,void *@ptr,)	lapb_iface.c -0.9915900749994162
+int tcp_v4_send_synack(const struct sock *@sk,struct dst_entry *@dst,struct flowi *@fl,struct request_sock *@req,struct tcp_fastopen_cookie *@foc,enum tcp_synack_type@synack_type,struct sk_buff *@syn_skb,)	tcp_ipv4.c -0.9915901766352999
+int tcp_v6_send_synack(const struct sock *@sk,struct dst_entry *@dst,struct flowi *@fl,struct request_sock *@req,struct tcp_fastopen_cookie *@foc,enum tcp_synack_type@synack_type,struct sk_buff *@syn_skb,)	tcp_ipv6.c -0.9915901766352999
+void ahc_construct_wdtr(struct ahc_softc *@ahc,struct ahc_devinfo *@devinfo,unsigned int@bus_width,)	 -0.9915912509208782
+int xfs_quota_reserve_blkres(struct xfs_inode *@ip,long long@blocks,)	 -0.9915917536998022
+void lpc18xx_pwm_set_conflict_res(struct lpc18xx_pwm_chip *@lpc18xx_pwm,struct pwm_device *@pwm,enum lpc18xx_pwm_res_action@action,)	 -0.9915929665524549
+int chmod_common(const struct path *@path,unsigned short@mode,)	 -0.9915935214471256
+void aac_queue_init(struct aac_dev *@dev,struct aac_queue *@q,u32 *@mem,int@qsize,)	 -0.9915947678524857
+int __traceiter_amdgpu_vm_update_ptes(void *@__data,struct amdgpu_vm_update_params *@p,unsigned long long@start,unsigned long long@end,unsigned int@nptes,unsigned long long@dst,unsigned long long@incr,unsigned long long@flags,int@pid,unsigned long long@vm_ctx,)	amdgpu_trace.h -0.9915953072990935
+int dma_assign_coherent_memory(struct device *@dev,struct dma_coherent_mem *@mem,)	 -0.9915958498285022
+void mlx5e_deactivate_trap(struct mlx5e_priv *@priv,)	 -0.9915969471267941
+void ocfs2_extent_map_trunc(struct inode *@inode,unsigned int@cluster,)	 -0.991598051443428
+int  path_chmod(const struct path *@path,umode_t@umode_t,)	 -0.9915982612022798
+void bnx2x_gro_ipv6_csum(struct bnx2x *@bp,struct sk_buff *@skb,)	bnx2x_cmn.c -0.9916000278923601
+int iwl_sar_fill_table(struct iwl_fw_runtime *@fwrt,__le16 *@per_chain,unsigned int@n_subbands,int@prof_a,int@prof_b,)	acpi.c -0.9916004685743756
+int sil24_init_one(struct pci_dev *@pdev,const struct pci_device_id *@ent,)	sata_sil24.c -0.9916010034857896
+int sil_init_one(struct pci_dev *@pdev,const struct pci_device_id *@ent,)	sata_sil.c -0.9916010034857896
+unsigned long oxygen_pointer(struct snd_pcm_substream *@substream,)	oxygen_pcm.c -0.9916011817559919
+void trace_xfs_rmap_unmap(struct xfs_mount *@mp,unsigned int@agno,unsigned int@agbno,unsigned int@len,_Bool@unwritten,const struct xfs_owner_info *@oinfo,)	 -0.9916031450994773
+int __traceiter_kvm_hv_syndbg_set_msr(void *@__data,int@vcpu_id,unsigned int@vp_index,unsigned int@msr,unsigned long long@data,)	trace.h -0.9916047254512077
+unsigned int igbvf_io_slot_reset(struct pci_dev *@pdev,)	netdev.c -0.9916050102165224
+void nvme_fc_ctrl_ioerr_work(struct work_struct *@work,)	fc.c -0.9916072333602135
+int nand_ecc_sw_bch_init_ctx(struct nand_device *@nand,)	 -0.9916072815525356
+void ef4_rx_packet_gro(struct ef4_channel *@channel,struct ef4_rx_buffer *@rx_buf,unsigned int@n_frags,u8 *@eh,)	rx.c -0.9916083246620685
+void alps_set_abs_params_mt_common(struct alps_data *@priv,struct input_dev *@dev1,)	alps.c -0.991608984772985
+int amdgpu_vcn_dec_sw_ring_test_ib(struct amdgpu_ring *@ring,long@timeout,)	amdgpu_vcn.c -0.9916096836436932
+struct cpio_data find_microcode_in_initrd(const char *@path,_Bool@use_pa,)	 -0.9916098662557844
+int prestera_netdev_port_event(struct net_device *@dev,unsigned long@event,void *@ptr,)	 -0.9916109442063532
+_Bool amdgpu_device_supports_baco(struct drm_device *@dev,)	 -0.9916114375279261
+int resize_parms_to_priv_skb(struct sk_buff *@skb,struct resize_parms *@s,)	drbd_genl.h -0.991611451669157
+int toshiba_haps_protection_level(void *@handle,int@level,)	 -0.9916121454067472
+int rxe_modify_ah(struct ib_ah *@ibah,struct rdma_ah_attr *@attr,)	rxe_verbs.c -0.9916134729201858
+int apq8016_lpass_init(struct platform_device *@pdev,)	lpass-apq8016.c -0.9916138849633162
+int av7110_firmversion(struct av7110 *@av7110,)	 -0.9916156697786922
+void perf_trace_dax_pmd_insert_mapping_class(void *@__data,struct inode *@inode,struct vm_fault *@vmf,long@length,pfn_t@pfn,void *@radix_entry,)	fs_dax.h -0.9916158006119733
+int ib_uverbs_resize_cq(struct uverbs_attr_bundle *@attrs,)	uverbs_cmd.c -0.9916159720941192
+void ref_rwsem_section(int@nloops,)	refscale.c -0.9916160566455627
+char * nfsd4_cltrack_legacy_topdir()	 -0.9916160959009901
+void cfg80211_cac_event(struct net_device *@netdev,const struct cfg80211_chan_def *@chandef,enum nl80211_radar_event@event,unsigned int@gfp,)	 -0.991616378987452
+_Bool has_ns_capability(struct task_struct *@t,struct user_namespace *@ns,int@cap,)	capability.c -0.9916170052286968
+void virtio_scsi_init_hdr_pi(struct virtio_device *@vdev,struct virtio_scsi_cmd_req_pi *@cmd_pi,struct scsi_cmnd *@sc,)	 -0.9916174289438484
+int ath5k_pci_probe(struct pci_dev *@pdev,const struct pci_device_id *@id,)	pci.c -0.9916178369322884
+void perf_trace_nilfs2_segment_usage_allocated(void *@__data,struct inode *@sufile,unsigned long long@segnum,)	nilfs2.h -0.9916180424183324
+void mlxsw_afa_resources_destroy(struct mlxsw_afa_block *@block,)	core_acl_flex_actions.c -0.991618249966267
+struct dentry * ocfs2_find_local_alias(struct inode *@inode,unsigned long long@parent_blkno,int@skip_unhashed,)	dcache.c -0.9916198720200017
+int mei_cl_bus_dev_add(struct mei_cl_device *@cldev,)	 -0.9916203759338498
+int selinux_netlbl_skbuff_setsid(struct sk_buff *@skb,unsigned short@family,unsigned int@sid,)	netlabel.c -0.9916205082242527
+long roccat_common2_sysfs_write_general(struct file *@fp,struct kobject *@kobj,struct bin_attribute *@attr,char *@buf,long long@off,unsigned long@count,)	hid-roccat-savu.c -0.9916214416216672
+void bxt_hpd_irq_handler(struct drm_i915_private *@dev_priv,unsigned int@hotplug_trigger,)	 -0.9916222329551262
+void rme9652_reset_hw_pointer(struct snd_rme9652 *@rme9652,)	 -0.9916229496190128
+int btf_vmlinux_map_ids_init(const struct btf *@btf,struct bpf_verifier_log *@log,)	btf.c -0.9916238542424036
+int ubifs_wbuf_init(struct ubifs_info *@c,struct ubifs_wbuf *@wbuf,)	io.c -0.9916252435107057
+void dmz_clone_endio(struct bio *@clone,)	dm-zoned-target.c -0.9916260895284101
+int pci_realloc_setup_params()	pci.c -0.9916268378653295
+int __mlxsw_cmd_sw2hw_dq(struct mlxsw_core *@mlxsw_core,char *@in_mbox,unsigned int@dq_number,unsigned char@opcode_mod,)	 -0.9916268440302106
+int pcrypt_init_padata(struct padata_instance **@pinst,const char *@name,)	 -0.9916271158611516
+unsigned int sbc_execute_unmap(struct se_cmd *@cmd,)	target_core_sbc.c -0.9916272114817541
+void hash_net4_del_cidr(struct ip_set *@set,struct hash_net4 *@h,unsigned char@cidr,unsigned char@n,)	 -0.9916286292469393
+void hash_net6_del_cidr(struct ip_set *@set,struct hash_net6 *@h,unsigned char@cidr,unsigned char@n,)	 -0.9916286292469393
+int iop_adma_memcpy_self_test(struct iop_adma_device *@device,)	 -0.9916305828393972
+void unhash_nsid(struct net *@net,struct net *@last,)	 -0.9916311534532706
+int sched_rq_cmp(void *@priv,struct list_head *@a,struct list_head *@b,)	blk-mq-sched.c -0.9916328098763747
+void cw1200_debug_tx_align(struct cw1200_common *@priv,)	 -0.9916330158310812
+int  ntfy(struct nvkm_fifo_chan *@nvkm_fifo_chan,u32@u32,struct nvkm_event **@nvkm_event,)	 -0.9916332445649373
+void  tx_fill_cmd_descriptor(struct net_device *@net_device,struct tx_desc_cmd *@tx_desc_cmd,struct cb_desc *@cb_desc,struct sk_buff *@sk_buff,)	 -0.9916334738525958
+void  rlcg_wreg(struct amdgpu_device *@amdgpu_device,u32@u32,u32@u32,)	 -0.9916335263030948
+int efx_selftest(struct efx_nic *@efx,struct efx_self_tests *@tests,unsigned int@flags,)	 -0.9916344468133905
+void ef4_farch_filter_table_clear_entry(struct ef4_nic *@efx,struct ef4_farch_filter_table *@table,unsigned int@filter_idx,)	 -0.9916351311787134
+int ntb_netdev_maybe_stop_tx(struct net_device *@ndev,struct ntb_transport_qp *@qp,int@size,)	 -0.9916358752995145
+void add_scan_area(unsigned long@ptr,unsigned long@size,unsigned int@gfp,)	kmemleak.c -0.9916360264719264
+int magn_3d_proc_event(struct hid_sensor_hub_device *@hsdev,unsigned int@usage_id,void *@priv,)	hid-sensor-magn-3d.c -0.9916365705937431
+unsigned long acp_pdm_dma_pointer(struct snd_soc_component *@comp,struct snd_pcm_substream *@stream,)	acp3x-pdm-dma.c -0.9916375524160761
+int qtnf_pcie_topaz_probe(struct qtnf_bus *@bus,unsigned int@tx_bd_num,unsigned int@rx_bd_num,)	topaz_pcie.c -0.9916381948546358
+void qed_ll2_establish_connection_ooo(struct qed_hwfn *@p_hwfn,struct qed_ll2_info *@p_ll2_conn,)	qed_ll2.c -0.9916384816894843
+int mlxsw_sp_port_vid_learning_set(struct mlxsw_sp_port *@mlxsw_sp_port,unsigned short@vid,_Bool@learn_enable,)	 -0.9916389953052973
+struct buffer_head * nilfs_read_log_header(struct the_nilfs *@nilfs,unsigned long long@start_blocknr,struct nilfs_segment_summary **@sum,)	 -0.991639130535878
+int ocrdma_create_srq(struct ib_srq *@ibsrq,struct ib_srq_init_attr *@init_attr,struct ib_udata *@udata,)	ocrdma_verbs.c -0.991639169204713
+void online_fair_sched_group(struct task_group *@tg,)	fair.c -0.9916427303437576
+void pci_uevent_ers(struct pci_dev *@pdev,enum pci_ers_result@err_type,)	pci-driver.c -0.9916432543890328
+long lpfc_nvme_enable_fb_show(struct device *@dev,struct device_attribute *@nvme_enable_fb,char *@buf,)	lpfc_attr.c -0.9916454115460973
+void nvme_execute_rq_polled(struct request_queue *@q,struct gendisk *@bd_disk,struct request *@rq,int@at_head,)	core.c -0.9916456601123866
+int  readfn(struct vfio_pci_device *@vfio_pci_device,int@int,int@int,struct perm_bits *@perm_bits,int@int,__le32 *@__le32,)	 -0.9916457566296419
+void mtk_register_reset_controller_common(struct device_node *@np,unsigned int@num_regs,int@regofs,const struct reset_control_ops *@reset_ops,)	reset.c -0.9916463820063838
+int __traceiter_vlv_fifo_size(void *@__data,struct intel_crtc *@crtc,unsigned int@sprite0_start,unsigned int@sprite1_start,unsigned int@fifo_size,)	i915_trace.h -0.9916471014907415
+unsigned int sprd_mcdt_int_type_shift(unsigned char@channel,enum sprd_mcdt_fifo_int@int_type,)	 -0.991647938389574
+void mlxsw_reg_spad_base_mac_memcpy_to(char *@buf,const char *@src,)	reg.h -0.991648218191592
+void NCR_700_internal_bus_reset(struct Scsi_Host *@host,)	 -0.9916483255569333
+int xfs_bmap_extents_to_btree(struct xfs_trans *@tp,struct xfs_inode *@ip,struct xfs_btree_cur **@curp,int@wasdel,int *@logflagsp,int@whichfork,)	 -0.9916484103203496
+int __traceiter_virtio_gpu_cmd_queue(void *@__data,struct virtqueue *@vq,struct virtio_gpu_ctrl_hdr *@hdr,)	virtgpu_trace.h -0.9916602154686583
+void nhmex_uncore_cpu_init()	uncore_nhmex.c -0.9916602707793196
+long roccat_common2_sysfs_write_info(struct file *@fp,struct kobject *@kobj,struct bin_attribute *@attr,char *@buf,long long@off,unsigned long@count,)	hid-roccat-konepure.c -0.9916616825375701
+void  copy_pte(struct amdgpu_ib *@amdgpu_ib,uint64_t@uint64_t,uint64_t@uint64_t,unsigned int@int,)	 -0.38877042878146584
+void mt7601u_sw_scan(struct ieee80211_hw *@hw,struct ieee80211_vif *@vif,const u8 *@mac_addr,)	main.c -0.38891311892860064
+struct hfi1_netdev_priv * hfi1_netdev_priv(struct net_device *@dev,)	 -0.38908437521657835
+int qed_hw_init_port(struct qed_hwfn *@p_hwfn,struct qed_ptt *@p_ptt,int@hw_mode,)	qed_dev.c -0.3891429533673498
+int init_tx_ring(struct device *@dev,unsigned char@queue_no,struct sxgbe_tx_queue *@tx_ring,int@tx_rsize,)	 -0.3891661782808063
+void pblk_set_sec_per_write(struct pblk *@pblk,int@sec_per_write,)	 -0.3891967807930351
+int vrf_device_event(struct notifier_block *@unused,unsigned long@event,void *@ptr,)	vrf.c -0.38925317434213
+int ip_vs_send_or_cont(int@pf,struct sk_buff *@skb,struct ip_vs_conn *@cp,int@local,)	ip_vs_xmit.c -0.3892827388462907
+void mlxsw_sp_fib_entry_pack(struct mlxsw_sp_fib_entry_op_ctx *@op_ctx,struct mlxsw_sp_fib_entry *@fib_entry,enum mlxsw_sp_fib_entry_op@op,)	 -0.38929577208588695
+int nsim_dev_port_debugfs_init(struct nsim_dev *@nsim_dev,struct nsim_dev_port *@nsim_dev_port,)	 -0.3893683594879799
+void * nvkm_acr_dtor(struct nvkm_subdev *@subdev,)	base.c -0.38991939236137485
+int mlxsw_sp_erif_entry_prepare(struct devlink_dpipe_entry *@entry,struct devlink_dpipe_value *@match_value,struct devlink_dpipe_match *@match,struct devlink_dpipe_value *@action_value,struct devlink_dpipe_action *@action,)	 -0.39002217882291856
+unsigned long long ____bpf_set_hash(struct sk_buff *@skb,unsigned int@hash,)	filter.c -0.3901256868766733
+u8 * mxms_data(struct nvkm_mxm *@mxm,)	mxms.c -0.39029347153949245
+int amdgpu_amdkfd_gpuvm_unmap_memory_from_gpu(struct kgd_dev *@kgd,struct kgd_mem *@mem,void *@vm,)	amdgpu_amdkfd_gpuvm.c -0.39037625517330526
+int artop_init_one(struct pci_dev *@pdev,const struct pci_device_id *@id,)	pata_artop.c -0.3905292040978994
+int register_trace_ath11k_htt_ppdu_stats(void (*)(void *, struct ath11k *, const void *, size_t)@probe,void *@data,)	trace.h -0.3908093591789564
+void * sprd_gpio_bank_base(struct sprd_gpio *@sprd_gpio,unsigned int@bank,)	 -0.39089755543235266
+int register_trace_prio_ext4_ind_map_blocks_exit(void (*)(void *, struct inode *, unsigned int, struct ext4_map_blocks *, int)@probe,void *@data,int@prio,)	ext4.h -0.39096052377577345
+struct sk_buff * mailbox_read(struct can_rx_offload *@can_rx_offload,unsigned int@int,u32 *@u32,bool@bool,)	 -0.39098686855199627
+int register_trace_prio_xfs_trans_log_buf(void (*)(void *, struct xfs_buf_log_item *)@probe,void *@data,int@prio,)	xfs_trace.h -0.39108610212424577
+struct j1939_priv * j1939_ndev_to_priv(struct net_device *@ndev,)	 -0.39112705922567087
+int lio_vf_rep_send_soft_command(struct octeon_device *@oct,void *@req,int@req_size,void *@resp,int@resp_size,)	 -0.3912697187665669
+int register_trace_prio_xfs_ail_pinned(void (*)(void *, struct xfs_log_item *)@probe,void *@data,int@prio,)	xfs_trace.h -0.39131671781093097
+struct ib_mr * mlx5_ib_reg_user_mr(struct ib_pd *@pd,unsigned long long@start,unsigned long long@length,unsigned long long@iova,int@access_flags,struct ib_udata *@udata,)	 -0.3915066067166859
+void acct_collect(long@exitcode,int@group_dead,)
+void ftrace_test_probe_tipc_node_delete()
+int ocs_sm4_init_tfm(struct crypto_skcipher *@tfm,)
+int mga_driver_dma_quiescent(struct drm_device *@dev,)
+int tegra_vde_dmabuf_cache_map(struct tegra_vde *@vde,struct dma_buf *@dmabuf,enum dma_data_direction@dma_dir,struct dma_buf_attachment **@ap,dma_addr_t *@addrp,)
+void task_fork_fair(struct task_struct *@p,)
+void smp_del_chan(struct l2cap_chan *@chan,)
+int register_trace_prio_nfs_revalidate_inode_exit(void (*)(void *, const struct inode *, int)@probe,void *@data,int@prio,)
+int trace_array_printk_buf(struct trace_buffer *@buffer,unsigned long@ip,const char *@fmt,)
+void apparmor_bprm_committing_creds(struct linux_binprm *@bprm,)
+pmd_t move_soft_dirty_pmd(pmd_t@pmd,)
+void ufshcd_remove_clk_gating_sysfs(struct ufs_hba *@hba,)
+void i915_gem_object_put_pages_dmabuf(struct drm_i915_gem_object *@obj,struct sg_table *@pages,)
+void acpi_tb_terminate()
+_Bool d_is_positive(const struct dentry *@dentry,)
+unsigned long nilfs_palloc_group_desc_nfrees(const struct nilfs_palloc_group_desc *@desc,spinlock_t *@lock,)
+void l3mdev_update_flow(struct net *@net,struct flowi *@fl,)
+void assoc_array_cancel_edit(struct assoc_array_edit *@edit,)
+void ftdi_elan_abandon_completions(struct usb_ftdi *@ftdi,)
+void printk_all_partitions()
+void netlink_rcv(struct sk_buff *@skb,)
+int hidma_mgmt_of_populate_channels(struct device_node *@np,)
+struct net * netns(struct file *@file,)
+void ieee80211_gtk_rekey_notify(struct ieee80211_vif *@vif,const u8 *@bssid,const u8 *@replay_ctr,unsigned int@gfp,)
+struct sk_buff * mlx5e_xsk_skb_from_cqe_mpwrq_linear(struct mlx5e_rq *@rq,struct mlx5e_mpw_info *@wi,unsigned short@cqe_bcnt,unsigned int@head_offset,unsigned int@page_idx,)
+int ieee80211_set_cqm_rssi_range_config(struct wiphy *@wiphy,struct net_device *@dev,int@rssi_low,int@rssi_high,)
+_Bool igbvf_tx_csum(struct igbvf_ring *@tx_ring,struct sk_buff *@skb,unsigned int@tx_flags,unsigned short@protocol,)
+const struct ib_gid_attr * cma_validate_port(struct ib_device *@device,unsigned char@port,enum ib_gid_type@gid_type,union ib_gid *@gid,struct rdma_id_private *@id_priv,)
+void mlx5e_cleanup_nic_rx(struct mlx5e_priv *@priv,)
+int mlxsw_sp_router_ll_basic_ralta_write(struct mlxsw_sp *@mlxsw_sp,char *@xralta_pl,)
+void * dm_kcopyd_prepare_callback(struct dm_kcopyd_client *@kc,void (*)(int, unsigned long, void *)@fn,void *@context,)
+struct ceph_quotarealm_inode * find_quotarealm_inode(struct ceph_mds_client *@mdsc,unsigned long long@ino,)
+struct ct_sns_req * qla2x00_prep_ct_fdmi_req(struct ct_sns_pkt *@p,unsigned short@cmd,unsigned short@rsp_size,)
+int dpni_clear_mac_filters(struct fsl_mc_io *@mc_io,unsigned int@cmd_flags,unsigned short@token,int@unicast,int@multicast,)
+void hash_net6_add_cidr(struct ip_set *@set,struct hash_net6 *@h,unsigned char@cidr,unsigned char@n,)
+struct clk_hw * imx_clk_hw_gate2_shared2(const char *@name,const char *@parent,void *@reg,unsigned char@shift,unsigned int *@share_count,)
+void ftrace_stacktrace_count(unsigned long@ip,unsigned long@parent_ip,struct trace_array *@tr,struct ftrace_probe_ops *@ops,void *@data,)
+unsigned char pci_bus_max_busnr(struct pci_bus *@bus,)
+void ftrace_stacktrace_count(unsigned long@ip,unsigned long@parent_ip,struct trace_array *@tr,struct ftrace_probe_ops *@ops,void *@data,)
+unsigned char pci_bus_max_busnr(struct pci_bus *@bus,)
+void trace_ext4_get_implied_cluster_alloc_exit_rcuidle(struct super_block *@sb,struct ext4_map_blocks *@map,int@ret,)
+void ath10k_wmi_event_scan_foreign_chan(struct ath10k *@ar,unsigned int@freq,)
